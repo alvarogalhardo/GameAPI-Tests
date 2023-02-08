@@ -10,4 +10,5 @@ app.get("/health", (req: Request, res: Response) => res.send("I'am alive!"));
 app.use(gamesRouter);
 app.use(consolesRouter);
 
+
 export default app;
